@@ -12,6 +12,9 @@ class ContentModel: ObservableObject {
     // Current module
     @Published var currentModule:Module?
     var currentModuleIndex = 0
+    // Current lesson
+    @Published var currentLesson: Lesson?
+    var currentLessonIndex = 0
     var styleData:Data?
     init() {
         getLocalData()
@@ -42,10 +45,19 @@ class ContentModel: ObservableObject {
     func beginModule(_ moduleid:Int) {
         for index in 0..<modules.count {
             if modules[index].id == moduleid {
-                currentModuleIndex = index
-                break
+               currentModuleIndex = index
             }
+            break
         }
         currentModule = modules[currentModuleIndex]
+    }
+    func beginLesson(_ lessonIndex:Int) {
+        if lessonIndex < currentModule!.content.lessons.count {
+            currentLessonIndex = lessonIndex
+        }
+        else {
+            currentLessonIndex = 0
+        }
+        currentLesson = currentModule?.content.lessons[currentLessonIndex]
     }
 }

@@ -19,7 +19,7 @@ struct ContentViewRow: View {
                 .cornerRadius(10)
                 .shadow(radius: 5)
                 .frame(height: 66)
-            HStack {
+            HStack(spacing: 30) {
                 Text(String(index + 1))
                     .bold()
                 VStack(alignment: .leading) {
