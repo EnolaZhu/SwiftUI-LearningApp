@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B4A70602733DFC7009E00AB /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4A705F2733DFC7009E00AB /* CodeTextView.swift */; };
 		4B8B969C272FCC0200D9C5DF /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B969B272FCC0200D9C5DF /* ContentViewRow.swift */; };
 		4B8B969E272FD7E500D9C5DF /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B969D272FD7E500D9C5DF /* ContentDetailView.swift */; };
 		4B8B96A1272FDD7A00D9C5DF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8B96A0272FDD7A00D9C5DF /* AVKit.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B4A705F2733DFC7009E00AB /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		4B8B969B272FCC0200D9C5DF /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		4B8B969D272FD7E500D9C5DF /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		4B8B96A0272FDD7A00D9C5DF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
@@ -109,6 +111,7 @@
 				4BB45971272BAAF1006F41A4 /* ContentView.swift */,
 				4B8B969B272FCC0200D9C5DF /* ContentViewRow.swift */,
 				4B8B969D272FD7E500D9C5DF /* ContentDetailView.swift */,
+				4B4A705F2733DFC7009E00AB /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				4B8B969E272FD7E500D9C5DF /* ContentDetailView.swift in Sources */,
 				4BB45955272A533B006F41A4 /* LearningApp.swift in Sources */,
 				4B8B969C272FCC0200D9C5DF /* ContentViewRow.swift in Sources */,
+				4B4A70602733DFC7009E00AB /* CodeTextView.swift in Sources */,
 				4BB45968272A54D8006F41A4 /* ContentModel.swift in Sources */,
 				4BB4596E272A7CE3006F41A4 /* Models.swift in Sources */,
 				4B8B96A3272FE63D00D9C5DF /* Constants.swift in Sources */,
