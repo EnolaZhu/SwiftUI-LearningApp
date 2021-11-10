@@ -22,6 +22,7 @@
 		4BB4596E272A7CE3006F41A4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4596D272A7CE3006F41A4 /* Models.swift */; };
 		4BB45970272A9D67006F41A4 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4596F272A9D67006F41A4 /* HomeViewRow.swift */; };
 		4BB45972272BAAF1006F41A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB45971272BAAF1006F41A4 /* ContentView.swift */; };
+		4BDF5E8E273B7D7500330366 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF5E8D273B7D7500330366 /* RectangleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		4BB4596D272A7CE3006F41A4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		4BB4596F272A9D67006F41A4 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		4BB45971272BAAF1006F41A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BDF5E8D273B7D7500330366 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4B8B969B272FCC0200D9C5DF /* ContentViewRow.swift */,
 				4B8B969D272FD7E500D9C5DF /* ContentDetailView.swift */,
 				4B4A705F2733DFC7009E00AB /* CodeTextView.swift */,
+				4BDF5E8D273B7D7500330366 /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				4B4A70602733DFC7009E00AB /* CodeTextView.swift in Sources */,
 				4BB45968272A54D8006F41A4 /* ContentModel.swift in Sources */,
 				4BB4596E272A7CE3006F41A4 /* Models.swift in Sources */,
+				4BDF5E8E273B7D7500330366 /* RectangleCard.swift in Sources */,
 				4B8B96A3272FE63D00D9C5DF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
